@@ -1,0 +1,21 @@
+.icon-container {
+  display: inline-block;
+  margin: 0 15px;
+  position: relative;
+  text-align: center;
+}
+
+.icon-name {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
