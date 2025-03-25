@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import Download from "../assets/download.jpg";
-import resume from "../assets/Resume.pdf";
+import resume from "../assets/srikanthResume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import "animate.css";

@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Home from "./Home";
 import About from "./About";
 import Project from "./Project";
@@ -11,7 +11,7 @@ const Temp = () => {
   return (
     <div>
       <Navbar />
-      <div style={{ backgroundColor: "#D8C4B6" }}>
+      <div className="bg-light">
         <Home />
         <About />
         <Project />
