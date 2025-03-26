@@ -9,7 +9,7 @@ import Resume from "./Resume";
 
 const Temp = () => {
   return (
-    <div>
+    <div style={{ fontVariant: "all-petite-caps" }}>
       <Navbar />
       <div className="bg-light">
         <Home />
